@@ -1,3 +1,12 @@
+## Demo (Mock Mode)
+
+![Widget Demo](docs/demo-widget.png)
+
+Scenario-based AI consulting widget (UI prototype).
+Currently running in mock mode without external AI APIs.
+
+
+
 # ai-consulting-engine
 
 Scenario-based AI consulting widget for websites.
