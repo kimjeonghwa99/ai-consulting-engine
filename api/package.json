@@ -1,0 +1,14 @@
+{
+  "name": "ai-consulting-engine-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "js-yaml": "^4.1.0",
+    "openai": "^4.0.0"
+  }
+}

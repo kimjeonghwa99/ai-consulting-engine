@@ -1,0 +1,8 @@
+# dependencies
+node_modules/
+api/node_modules/
+
+# env
+.env
+.env.*
+!.env.example
