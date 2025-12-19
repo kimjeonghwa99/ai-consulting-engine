@@ -1,0 +1,72 @@
+#ai-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-family: sans-serif;
+  z-index: 9999;
+}
+
+#ai-toggle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#ai-chat {
+  width: 320px;
+  height: 420px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  padding: 10px;
+  background: #111;
+  color: #fff;
+}
+
+#messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+.message.user {
+  text-align: right;
+  margin-bottom: 8px;
+}
+
+.message.ai {
+  text-align: left;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.input {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+.input input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+}
+
+.input button {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
